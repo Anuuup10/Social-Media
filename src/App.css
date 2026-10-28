@@ -7,7 +7,7 @@
 }
 
 .post-card {
- margin: 20px 50px;
+  margin: 20px 50px;
 }
 
 .hashtag {
@@ -15,8 +15,17 @@
 }
 
 .delete {
+ cursor: pointer;
+}
+
+.reactions {
   margin: 20px 0 0 0;
-  width: 50px;
+  width: 100%;
+}
+
+.reactions .p {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 
 .create-post {
